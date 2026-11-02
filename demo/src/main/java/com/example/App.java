@@ -11,7 +11,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/com/example/Etudiant.fxml"));
-        stage.setTitle("Gestion des étudiants");
+        stage.setTitle("Java FXML");
         stage.setScene(new Scene(root));
         stage.show();
     }
